@@ -1,0 +1,31 @@
+{
+  "name": "tree-sitter-ron",
+  "version": "1.0.0",
+  "description": "tree-sitter grammar for Rust Object Notation",
+  "main": "bindings/node",
+  "scripts": {
+    "test": "tree-sitter test",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otherJL0/tree-sitter-ron.git"
+  },
+  "keywords": [
+    "ron",
+    "tree-sitter"
+  ],
+  "author": "otherJL0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/otherJL0/tree-sitter-ron/issues"
+  },
+  "homepage": "https://github.com/otherJL0/tree-sitter-ron#readme",
+  "dependencies": {
+    "nan": "^2.15.0"
+  },
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "tree-sitter-cli": "^0.20.1"
+  }
+}
